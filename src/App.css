@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+input.input-error,
+select.input-error {
+  border: 0.5px solid #fc8181;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}
+
+button:disabled {
+  opacity: 0.35;
+}
