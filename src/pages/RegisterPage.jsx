@@ -1,7 +1,8 @@
+import React from 'react';
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import RegisterForm from "../components/RegisterForm";
-import { basicSchema2 } from "../schemas";
+//import { basicSchema2 } from "../schemas";
 import "../App.css";
 
 export default function RegisterPage() {
