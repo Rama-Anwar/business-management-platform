@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './pages/RegisterPage';
 import Users from "./pages/UsersPage";
 import ProductsPage from './pages/ProductsPage';
+import DashboardPage from './pages/DashboardPage';
 
 //const originalPrompt = window.prompt;
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Login />} />        
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/dashboard"  element={<DashboardPage />} /> 
         <Route path="/users" element={<Users />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="*" element={<h1>Not Found</h1>} />
