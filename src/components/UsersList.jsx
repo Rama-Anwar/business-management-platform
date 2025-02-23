@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaLock, FaLockOpen } from "react-icons/fa";
 
 export default function UsersList({ users, toggleLock }) {
