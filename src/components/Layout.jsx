@@ -12,7 +12,7 @@ export default function Layout() {
     <div className="flex min-h-screen">
 
       <nav className="w-64 bg-blue-900 text-white min-h-screen p-6 fixed">
-        <h2 className="text-xl font-semibold mb-6">Business Dashboard</h2>
+        <h2 className="text-xl font-semibold mb-6">Business Management</h2>
         <ul className="space-y-4">
           <li>
             <Link
